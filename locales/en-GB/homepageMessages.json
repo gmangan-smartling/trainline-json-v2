@@ -1,7 +1,8 @@
 {
-  "page.home.appLinks.getAppAlternate": "Europe’s leading train and bus app",
+  "page.home.appLinks.getAppAlternate": "Europe’s leading train and bus app - modify branch 1.",
   "page.home.qtt.title": "Search times and tickets",
   "page.home.bestFares.title": "Best fare finder images",
   "page.home.eu.frequentSearches.title": "Frequent searches",
-  "page.home.reassuranceBanner.alt.section1TitleIntlUSTest": "Compare cheap prices for train and bus tickets"
+  "page.home.reassuranceBanner.alt.section1TitleIntlUSTest": "Compare cheap prices for train and bus tickets",
+  "branch_1_key": "Added from branch 1 only. Check if it returns to branc 2."
 }
