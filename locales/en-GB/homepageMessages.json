@@ -163,5 +163,6 @@
   "carriers.title": "Authorized carriers",
   "localeAndCurrencyPicker.switchingInfo.header": "Switching currency now will:",
   "localeAndCurrencyPicker.switchingInfo.point1": "Change the currency of all items in your basket",
-  "localeAndCurrencyPicker.switchingInfo.point2": "Remove any travel insurance cover added to your basket"
+  "localeAndCurrencyPicker.switchingInfo.point2": "Remove any travel insurance cover added to your basket",
+  "newKeyTrigger": "Checking if this updates namespace."
 }
