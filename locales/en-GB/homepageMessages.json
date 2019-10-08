@@ -166,5 +166,7 @@
   "localeAndCurrencyPicker.switchingInfo.point2": "Remove any travel insurance cover added to your basket",
   "newKeyTrigger": "Checking if this updates namespace.",
   "addKeyBranch3.0": "Now what will happen.",
-  "b2BranchKey": "Only made in Branch 2. 2."
+  "b2BranchKey": "Only made in Branch 2. 2.",
+  "b1KeyOnly": "Branch 1 change modification, difference namespace."
+
 }
