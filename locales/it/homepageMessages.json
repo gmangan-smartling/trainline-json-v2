@@ -164,5 +164,6 @@
   "localeAndCurrencyPicker.switchingInfo.header" : "Modificando la valuta:",
   "localeAndCurrencyPicker.switchingInfo.point1" : "cambia la valuta di tutti gli elementi nel carrello",
   "localeAndCurrencyPicker.switchingInfo.point2" : "verranno eliminate eventuali assicurazioni di viaggio presenti nel carrello",
-  "newKeyTrigger" : "Verifica se questo aggiorna lo spazio dei nomi."
+  "newKeyTrigger" : "Verifica se questo aggiorna lo spazio dei nomi.",
+  "addKeyBranch3.0" : "Ora cosa accadrà."
 }
