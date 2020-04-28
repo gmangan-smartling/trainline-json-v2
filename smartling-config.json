@@ -80,6 +80,13 @@
       "authorizeContent": "true",
       "translationPathExpression": "locales/${locale}/${originalFile.name}",
       "translationCommitMessage": "Translations for ${originalFile.fullName}",
+    },
+	{
+      "type": "xliff",
+	"authorizeContent": "false",
+      "pathRegex": "fileformats\\/xliff\\/en\\.xlf",
+      "translationPathExpression": "fileformats/xliff/${originalFile.baseName}.${locale}.${originalFile.extension}",
+      "translationCommitMessage": "Localisation of ${originalFile.fullName} to ${locale}"
     }
   ]
 }
