@@ -86,7 +86,11 @@
 	"authorizeContent": "false",
       "pathRegex": "fileformats\\/xliff\\/en\\.xlf",
       "translationPathExpression": "fileformats/xliff/${originalFile.baseName}.${locale}.${originalFile.extension}",
-      "translationCommitMessage": "Localisation of ${originalFile.fullName} to ${locale}"
+      "translationCommitMessage": "Localisation of ${originalFile.fullName} to ${locale}",
+		"smartlingDirectives" : [
+"smartling.placeholder_format = IOS",
+			"smartling.placeholder_format_custom = \$\{.*?\}"
+]
     }
   ]
 }
