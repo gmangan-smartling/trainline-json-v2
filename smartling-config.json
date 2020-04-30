@@ -89,7 +89,7 @@
       "translationCommitMessage": "Localisation of ${originalFile.fullName} to ${locale}",
 		"smartlingDirectives" : [
 "smartling.placeholder_format = IOS",
-			"smartling.placeholder_format_custom = \\${.*?}"
+			"smartling.placeholder_format_custom = \\$\\{.*?\\}"
 ]
     }
   ]
