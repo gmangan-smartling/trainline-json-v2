@@ -72,8 +72,70 @@
 	  "authorizeContent": "false",
       "pathRegex": "fileformats\\/RESX\\/Resources\\.resx",
       "translationPathExpression": "fileformats/RESX/${originalFile.baseName}.${locale}.${originalFile.extension}",
-      "translationCommitMessage": "Localisation of ${originalFile.fullName} to ${locale}"
+      "translationCommitMessage": "Localisation of ${originalFile.fullName} to ${locale}",
+	    "locales": [
+    {
+      "smartling": "zh-CN",
+      "application": "zh-CN"
     },
+    {
+      "smartling": "da-DK",
+      "application": "da-DK"
+    },
+    {
+      "smartling": "nl-NL",
+      "application": "nl-NL"
+    },
+    {
+      "smartling": "fr-FR",
+      "application": "fr-FR"
+    },
+    {
+      "smartling": "de-DE",
+      "application": "de-DE"
+    },
+    {
+      "smartling": "it-IT",
+      "application": "it-IT"
+    },
+    {
+      "smartling": "ja-JP",
+      "application": "ja-JP"
+    },
+    {
+      "smartling": "nb-NO",
+      "application": "nb-NO"
+    },
+    {
+      "smartling": "pl-PL",
+      "application": "pl-PL"
+    },
+    {
+      "smartling": "pt-BR",
+      "application": "pt-BR"
+    },
+    {
+      "smartling": "ru-RU",
+      "application": "ru-RU"
+    },
+    {
+      "smartling": "es-ES",
+      "application": "es-ES"
+    },
+    {
+      "smartling": "sv-SE",
+      "application": "sv-SE"
+    }
+  ]
+    },
+	  {
+      "type": "resx",
+      "pathRegex": "(?<path>(.\\/?)*(Resource|ResourcesClient)(\\/?.\\/?)*)\\/((?![a-z]{2}(-[A-Z]{2})?\\.)\\w+\\.)+(resx)",
+      "translationPathExpression": "${path}/${originalFile.baseName}.${locale}.${originalFile.extension}",
+      "translationCommitMessage": "Localisation of ${originalFile.fullName} to ${locale}",
+	   "authorizeContent": false
+}
+  ,
     {
       "type": "json",
       "pathRegex": "locales\\/en\\/(?!(config|links)).*\\.json",
