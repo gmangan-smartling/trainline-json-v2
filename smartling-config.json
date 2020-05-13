@@ -67,7 +67,15 @@
     }
   ],
   "resourceSets": [
-    {
+	  {
+      "type": "resx",
+      "pathRegex": "(?<path>(.\\/?)*(Resource|ResourcesClient)(\\/?.\\/?)*)\\/((?![a-z]{2}(-[A-Z]{2})?\\.)\\w+\\.)+(resx)",
+      "translationPathExpression": "${path}/${originalFile.baseName}.${locale}.${originalFile.extension}",
+      "translationCommitMessage": "Localisation of ${originalFile.fullName} to ${locale}",
+	   "authorizeContent": false
+}
+  ,
+	  {
       "type": "resx",
 	  "authorizeContent": "false",
       "pathRegex": "fileformats\\/RESX\\/Resources\\.resx",
@@ -128,14 +136,6 @@
     }
   ]
     },
-	  {
-      "type": "resx",
-      "pathRegex": "(?<path>(.\\/?)*(Resource|ResourcesClient)(\\/?.\\/?)*)\\/((?![a-z]{2}(-[A-Z]{2})?\\.)\\w+\\.)+(resx)",
-      "translationPathExpression": "${path}/${originalFile.baseName}.${locale}.${originalFile.extension}",
-      "translationCommitMessage": "Localisation of ${originalFile.fullName} to ${locale}",
-	   "authorizeContent": false
-}
-  ,
     {
       "type": "json",
       "pathRegex": "locales\\/en\\/(?!(config|links)).*\\.json",
