@@ -138,12 +138,12 @@
     },
     {
       "type": "json",
-      "pathRegex": "locales\\/en\\/file\\.json",
+      "pathRegex": "LOCALES\\/en\\/file\\.json",
       "authorizeContent": "true",
-      "translationPathExpression": "locales/${locale}/${originalFile.name}",
+      "translationPathExpression": "LOCALES/${locale}/${originalFile.name}",
       "translationCommitMessage": "Translations for ${originalFile.fullName}",
       "smartlingDirectives" : [
-      "smartling.NAMESPACE = /locales/en/file.json"
+      "smartling.NAMESPACE = /LOCALES/en/file.json"
       ]
     },
 	{
