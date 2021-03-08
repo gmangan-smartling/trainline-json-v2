@@ -138,9 +138,9 @@
     },
     {
       "type": "json",
-      "pathRegex": "**\\/en\\/file\\.json",
+      "pathRegex": "locales\\/en\\/file\\.json",
       "authorizeContent": "true",
-      "translationPathExpression": "LOCALES/${locale}/${originalFile.name}",
+      "translationPathExpression": "locales/${locale}/${locale}.${originalFile.extension}",
       "translationCommitMessage": "Translations for ${originalFile.fullName}",
       "smartlingDirectives" : [
       "smartling.NAMESPACE = /LOCALES/en/file.json"
