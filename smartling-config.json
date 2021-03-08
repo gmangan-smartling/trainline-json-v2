@@ -138,7 +138,7 @@
     },
     {
       "type": "json",
-      "pathRegex": "LOCALES\\/en\\/file\\.json",
+      "pathRegex": "**\\/en\\/file\\.json",
       "authorizeContent": "true",
       "translationPathExpression": "LOCALES/${locale}/${originalFile.name}",
       "translationCommitMessage": "Translations for ${originalFile.fullName}",
