@@ -1,4 +1,14 @@
 {
+"locales": [
+{
+"smartling" : "de-DE",
+"application" : "de-DE"
+},
+{
+"smartling" : "nl-NL",
+"application" : "nl-NL"
+}
+],     
      "resourceSets": [
          {
             "type"                      : "json",
