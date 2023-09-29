@@ -15,18 +15,6 @@
             "authorizeContent"          : false,
             "pathRegex"                 : "json\\/.*_en\\.json",
             "translationPathExpression" : "${originalFile.path}${originalFile.baseName.replaceAll('_en$', '_'+locale)}.${originalFile.extension}"
-         },
-          {
-             "type"                      : "json",
-            "authorizeContent"          : false,
-            "pathRegex"                 : "arb\\/.*_en\\.arb",
-            "translationPathExpression" : "${originalFile.path}${originalFile.baseName.replaceAll('_en$', '_'+locale)}.${originalFile.extension}"  
-          },
-          {
-             "type"                      : "arb",
-            "authorizeContent"          : false,
-            "pathRegex"                 : "arb_test\\/en_arb\\.arb",
-            "translationPathExpression" : "${originalFile.path}${originalFile.baseName.replaceAll('en_', locale+'_')}.${originalFile.extension}"  
-          }
+         }
      ]
 }
